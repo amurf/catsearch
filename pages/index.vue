@@ -21,10 +21,6 @@
         </p>
       </div>
     </div>
-
-    <div class="links">
-      <nuxt-link to="/example" class='button--grey'>Example site</nuxt-link>
-    </div>
   </div>
 </template>
 
@@ -45,8 +41,5 @@ export default {
 <style scoped>
 input.search {
   flex: 1 0 80%;
-}
-.links {
-  padding-top: 15px;
 }
 </style>
