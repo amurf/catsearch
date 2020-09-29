@@ -1,2 +1,2 @@
 npm run generate
-surge --domain mewmew.surge.sh dist
+npx surge --domain mewmew.surge.sh dist

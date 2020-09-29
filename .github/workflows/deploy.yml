@@ -24,9 +24,7 @@ jobs:
         run: npm install
       - name: Run production build
         run: npm run generate
-      - name: Run production build
-        run: npm run generate
-      - name: Deploy to surge
+      - name: Build and deploy to surge
         run: ./publish.sh
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
